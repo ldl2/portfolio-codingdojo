@@ -1,12 +1,14 @@
 *{
- margin: 0px;
- padding: 0px;
+ 	margin: 0px;
+ 	padding: 0px;
 }
+/*img{
+	width: 300px;
+	height:auto;
+}*/
 #wrapper{
-	width: 950px;
-	height: 950px;
-	background-color: rgb(91,78,102);
-	/*background: radial-gradient(rgb(239, 247,245), rgb(35,32,35);*/
+	background: -webkit-radial-gradient(purple, black);
+	
 }
 
 #header{
@@ -15,8 +17,9 @@
 	margin: 0px auto;
  	padding: 15px;
  	overflow: auto;	
-
-	
+}
+#top{
+	display: inline;
 }
 .headleft{
 	display: inline-block;
@@ -26,4 +29,11 @@
 .headright{
 	display: inline-block;
 	float: right;
+}
+
+.po_m{
+	display: inline-block;
+	height: 300px;
+	width: auto;
+	border: 3px
 }
