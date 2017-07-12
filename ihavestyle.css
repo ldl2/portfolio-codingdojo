@@ -20,19 +20,8 @@ a{
 }
 #wrapper{
 	background: -webkit-radial-gradient(rgb(128, 103, 140), black);
-	
-}
-#rmiddle{
-	width: 30%;
-	height: auto;
-	margin: 10px;
-}
-#header{
-	width: auto;
-	background-color: rgb(242, 242, 242);
-	margin: 0px auto;
- 	padding: 15px;
- 	overflow: auto;	
+	height: 1800px;
+	padding-top: 22px;
 }
 #topleft{
 	display: inline-block;
@@ -42,9 +31,40 @@ a{
 #topright{
 	display: inline-block;
 	margin: 10px;
+	margin-top: 30px;
 	width: 50%;
-	height: 450px;
+	height: 457px;
 	vertical-align: top;
+	background: white;
+		
+}
+#rmiddle{
+	width: 30%;
+	height: 450px;
+	margin: 24px;
+	display: inline-block;
+	vertical-align: top;
+} 
+#cmiddle{
+	width: 30%;
+	height: 450px;
+	margin: 23px;
+	display: inline-block;
+	vertical-align: top;
+}
+#lmiddle{
+	width: 30%;
+	height: 450px;
+	margin: 24px;
+ 	display: inline-block;
+ 	vertical-align: top;
+}
+#header{
+	width: auto;
+	background-color: rgb(242, 242, 242);
+	margin: 0px auto;
+ 	padding: 15px;
+ 	overflow: auto;	
 }
 .headleft{
 	display: inline-block;
@@ -61,4 +81,21 @@ a{
 	height: 450px;
 	width: auto;
 	border: 4px solid silver;
+	vertical-align: top;
+}
+.mpicture{
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+.words{
+	height: 280px;
+	font-size: 18pt;
+}
+.end{
+	width: 15%;
+	height:auto;
+	background: white;
+	overflow: auto;
+	padding: 10px;
 }
