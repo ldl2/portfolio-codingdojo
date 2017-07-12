@@ -20,7 +20,7 @@ a{
 }
 #wrapper{
 	background: -webkit-radial-gradient(rgb(128, 103, 140), black);
-	height: 1800px;
+	height: 1500px;
 	padding-top: 22px;
 }
 #topleft{
@@ -66,6 +66,11 @@ a{
  	padding: 15px;
  	overflow: auto;	
 }
+#bottom{
+	background: white;
+	height: 240px;
+	overflow: auto;
+}
 .headleft{
 	display: inline-block;
 
@@ -95,7 +100,9 @@ a{
 .end{
 	width: 15%;
 	height:auto;
-	background: white;
-	overflow: auto;
 	padding: 10px;
+}
+.button{
+	
+	margin-left: 50px;
 }
