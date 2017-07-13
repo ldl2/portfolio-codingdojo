@@ -9,7 +9,7 @@ h3{
 	font-size: 22pt; 
 }
 p{
-	background: white;
+	background: -webkit-linear-gradient(left, white, rgb(225, 196, 239));
 	padding: 10px;
 	overflow: auto;
 	font-size: 20pt;
@@ -17,6 +17,7 @@ p{
 a{
 	text-decoration: underline;
 	color: black;
+
 }
 #wrapper{
 	background: -webkit-radial-gradient(rgb(128, 103, 140), black);
@@ -35,30 +36,15 @@ a{
 	width: 50%;
 	height: 457px;
 	vertical-align: top;
-	background: white;
-		
+	background: -webkit-linear-gradient(left, white, rgb(225, 196, 239));		
 }
-#rmiddle{
+#middle{
 	width: 30%;
 	height: 450px;
 	margin: 24px;
 	display: inline-block;
 	vertical-align: top;
 } 
-#cmiddle{
-	width: 30%;
-	height: 450px;
-	margin: 23px;
-	display: inline-block;
-	vertical-align: top;
-}
-#lmiddle{
-	width: 30%;
-	height: 450px;
-	margin: 24px;
- 	display: inline-block;
- 	vertical-align: top;
-}
 #header{
 	width: auto;
 	background-color: rgb(242, 242, 242);
@@ -66,8 +52,17 @@ a{
  	padding: 15px;
  	overflow: auto;	
 }
+#footer{
+	width: auto;
+	background-color: rgb(242, 242, 242);
+	margin: 0px auto;
+ 	overflow: auto;	
+ 	display:block;
+ 	padding-left: auto;
+ 	padding-right: auto;
+}
 #bottom{
-	background: white;
+	background: -webkit-linear-gradient(left, white, rgb(225, 196, 239));
 	height: 240px;
 	overflow: auto;
 }
@@ -80,7 +75,16 @@ a{
 	display: inline-block;
 	float: right;
 }
-
+.footcontent1{
+	display: inline-block;
+	background: transparent;
+	margin-left: 40%;	
+}
+.footcontent2{
+	display: inline-block;
+	background: transparent;
+	margin-left: 35%;	
+}
 .pom{
 	display: inline-block;
 	height: 450px;
@@ -103,6 +107,16 @@ a{
 	padding: 10px;
 }
 .button{
-	
-	margin-left: 50px;
+	margin-left: 175px;
+	background-color: green;
+	display: inline-block;
+	border: solid black 2px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px grey;
+	color: white;
+	padding: 4px;
+}
+.footpic{
+	width: 25px;
+	height: auto;
 }
